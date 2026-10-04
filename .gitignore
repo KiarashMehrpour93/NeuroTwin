@@ -1,0 +1,47 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw EEG data
+data/raw/
+*.edf
+*.fif
+*.bdf
+*.set
+*.cnt
+
+# Temporary files
+*.tmp
+*.log
+
+# Environment
+.env
+
+# Generated files
+*.csv
+*.xlsx
+
+# Large temporary model files
+*.pt
+*.pth
+*.onnx
